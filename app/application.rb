@@ -8,7 +8,7 @@ class Application
 
     if num_1 == num_2 && num_2 == num_3
       resp.write "you win!"
-    else 
+    else
       resp.write "you lose!"
     end
     resp.finish
