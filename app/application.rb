@@ -6,7 +6,7 @@ class Application
     num_2 = Kernal.rand(1..20)
     num_3 = Kernal.rand(1..20)
 
-    
+
     resp.finish
   end
 
