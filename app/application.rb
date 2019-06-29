@@ -6,15 +6,16 @@ class Application
     num_2 = Kernal.rand(1..20)
     num_3 = Kernal.rand(1..20)
 
-    resp.write "#{num_1}" 
-    resp.write "#{num_2}" 
+    resp.write "#{num_1}"
+    resp.write "#{num_2}"
     resp.write "#{num_3}" 
+    
     if num_1 == num_2 && num_2 == num_3
       resp.write "you win!"
     else
       resp.write "you lose!"
     end
-    
+
     resp.finish
   end
 
